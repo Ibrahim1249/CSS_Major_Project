@@ -1214,7 +1214,9 @@ nav .icons:hover i, #project-consultants .icons:hover i{
      }
   }
   @media screen and (max-width:1000px){
-  
+    .wrapper{
+      overflow-y: hidden;
+    }
     #intro-section, #service, #testimonials, #contact, footer, #about, #project-consultants, #callme, #projects {
       padding-left: 4rem;
       padding-right: 4rem;
@@ -1239,4 +1241,123 @@ nav .icons:hover i, #project-consultants .icons:hover i{
       padding-right: 3rem;
   }
  
+  }
+  @media screen and (max-width:900px){
+
+    #intro-section, #service, #testimonials, #contact, footer, #about, #project-consultants, #callme, #projects {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    #hero .text{
+      width: 80%;
+     }
+
+     nav {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+  .service-2-container .content-1-container .content {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+   }
+
+
+   .service-2-container .content-2-container .content-container {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 90%;
+   }
+   .section-wrapper {
+    justify-content: space-between;
+   }
+   #testimonials .section-wrapper {
+    grid-auto-columns: 35%;
+   }
+   #testimonials .section-heading, #project-consultants .section-heading {
+      width: 65%;
+   }
+   .about-wrapper .left-container {
+    width: 40%;
+   }
+   .about-wrapper .left-container  img{
+    height: 100%;
+   }
+   .about-wrapper .right-container {
+    width: 58%;
+   }
+  }
+  @media screen and (max-width:800px){
+    #hero .text{
+      width: 100%;
+     }
+     #intro-section .container{
+      flex-direction: column;
+     }
+     #intro-section .container .left-container , #intro-section .container .right-container{
+      width: 100%;
+      margin-bottom: 2rem;
+     }
+     .cards {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0;
+      padding-bottom: 0;
+
+     }
+     .card .card-icon i{
+      bottom: 10px;
+      left: 45px;
+     }
+     #service .section-heading {
+      text-align: center;
+      width: 100%;
+      margin: auto;
+     }
+     .section-wrapper {
+      flex-direction: column;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+     }
+     .service{
+      width: 80%;
+      margin-bottom: 1.5rem;
+     }
+     .service-2-container {
+      flex-direction: column;
+    
+     }
+     .service-2-container .img-container , .service-2-container .content-1-container , .service-2-container .content-2-container{
+      width: 100%;
+     }
+     #intro-section, #service, #testimonials, #contact, footer, #about, #project-consultants, #callme, #projects {
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+     }
+     #callme .container{
+      flex-direction: column;
+     }
+     #callme .container .left , #callme .container .right{
+      margin-bottom: 1rem;
+      width: 100%;
+     }
+     #projects .categories {
+      width: 90%;
+  }
+
+  .about-wrapper, #contact {
+    flex-direction: column;
+  }
+  #contact{
+    margin-bottom: 0;
+  }
+  .about-wrapper .left-container , .about-wrapper .right-container {
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  #contact .left , #contact .right{
+    width: 100%;
+    margin-bottom: 3rem;
+  }
   }
